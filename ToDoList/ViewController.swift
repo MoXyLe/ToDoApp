@@ -12,8 +12,6 @@ var massiv: [String] = ["First", "Second", "Third"]
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .default, reuseIdentifier: "Cell")
         cell.textLabel?.text = massiv[indexPath.row]

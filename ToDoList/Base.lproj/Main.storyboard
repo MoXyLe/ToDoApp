@@ -55,9 +55,8 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="3RN-Uq-uyb"/>
                                 </connections>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KQB-ws-dPq">
-                                <rect key="frame" x="337" y="28" width="22" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KQB-ws-dPq">
+                                <rect key="frame" x="329" y="13" width="30" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="+"/>
                                 <connections>
@@ -71,6 +70,8 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Vuy-K7-uvE" secondAttribute="trailing" constant="-16" id="IeM-Xn-Mlt"/>
                             <constraint firstItem="Vuy-K7-uvE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="JZ7-9C-lgP"/>
                             <constraint firstItem="Vuy-K7-uvE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="41" id="KXo-NU-NtB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KQB-ws-dPq" secondAttribute="trailing" id="KoQ-4g-iz4"/>
+                            <constraint firstItem="KQB-ws-dPq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-7" id="Lfh-4e-8cL"/>
                             <constraint firstItem="pRR-ig-Y04" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NJ2-kV-rkJ"/>
                             <constraint firstItem="Vuy-K7-uvE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VaD-A2-8J4"/>
                             <constraint firstItem="Vuy-K7-uvE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="41" id="dSo-Q1-nLc"/>
