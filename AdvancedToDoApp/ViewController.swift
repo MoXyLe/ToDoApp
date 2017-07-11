@@ -21,7 +21,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         } catch {
             print("Fetching Failed")
         }
-    }
+    }   //Get Data
     
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
 
